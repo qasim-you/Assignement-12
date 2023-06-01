@@ -12,12 +12,10 @@ function sortOddEven(arr) {
         }
     } 
     
-
     evenArr.sort((a, b) => a - b);
     oddArr.sort((a, b) => a - b);
 
-    return[...evenArr, ...oddArr] ;
-
+    return[...evenArr, ...oddArr] 
 }
 const array = [3,5,7,2,6,9,11,8] ;
 const sortedArray = sortOddEven(array) ;

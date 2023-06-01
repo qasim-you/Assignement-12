@@ -17,3 +17,4 @@ function separateEvenOdd(arr) {
  const array = [5, 2, 9, 10, 8, 3, 7, 4];
 const [evenArr, oddArr] = separateEvenOdd(array);
 console.log(evenArr); 
+console.log(oddArr); 

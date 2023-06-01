@@ -16,8 +16,6 @@ function countDuplicates(arr) {
   
     return duplicateCount;
   }
-  
-
   const array = [1, 2, 3, 4, 2, 3, 1, 5];
   const totalDuplicates = countDuplicates(array);
   
