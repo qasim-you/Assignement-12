@@ -12,6 +12,6 @@ function removeLastOccurrence(str, char) {
   
   const input = "I am Developer";
   const charToRemove = "l";
-  const result = removeFirstOccurrence(input, charToRemove);
+  const result = removeLastOccurrence(input, charToRemove);
   console.log(result);
   

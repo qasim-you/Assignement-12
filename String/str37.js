@@ -3,7 +3,7 @@ function trimWhiteSpace(str) {
     return str.trim();
   }
   
-  // Example usage
+  
   const input = "    Hello World    ";
   const result = trimWhiteSpace(input);
   console.log(result);

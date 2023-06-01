@@ -6,7 +6,7 @@ function searchAllOccurrences(str, word) {
     return matches || [];
   }
   
-  // Example usage
+ 
   const input = "Hello World Hello World";
   const wordToSearch = "World";
   const occurrences = searchAllOccurrences(input, wordToSearch);

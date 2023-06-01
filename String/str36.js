@@ -3,7 +3,7 @@ function trimTrailingWhiteSpace(str) {
     return str.replace(/\s+$/, '');
   }
   
-  // Example usage
+  
   const input = "Hello World    ";
   const result = trimTrailingWhiteSpace(input);
   console.log(result);

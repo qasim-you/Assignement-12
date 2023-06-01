@@ -7,7 +7,6 @@ function removeLastOccurrence(str, word) {
     return reversedResult;
   }
   
-  // Example usage
   const input = "Hello World Hello World";
   const wordToRemove = "World";
   const result = removeLastOccurrence(input, wordToRemove);

@@ -3,7 +3,7 @@ function trimLeadingWhiteSpace(str) {
     return str.replace(/^\s+/, '');
   }
   
-  // Example usage
+ 
   const input = "    Hello World";
   const result = trimLeadingWhiteSpace(input);
   console.log(result);

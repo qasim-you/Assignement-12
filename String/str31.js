@@ -6,7 +6,6 @@ function countOccurrences(str, word) {
     return matches ? matches.length : 0;
   }
   
-  // Example usage
   const input = "Hello World Hello World";
   const wordToCount = "World";
   const occurrenceCount = countOccurrences(input, wordToCount);

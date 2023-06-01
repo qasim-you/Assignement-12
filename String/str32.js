@@ -4,7 +4,7 @@ function removeFirstOccurrence(str, word) {
     return str.replace(regex, '');
   }
   
-  // Example usage
+
   const input = "Hello World Hello World";
   const wordToRemove = "World";
   const result = removeFirstOccurrence(input, wordToRemove);
